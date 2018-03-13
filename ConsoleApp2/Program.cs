@@ -36,13 +36,6 @@ namespace praktika1
             Console.WriteLine($"Сумма : { this.Summa }");
         }
 
-        static void Main(string[] args)
-        {
-            kvit scr = new kvit();
-            scr.Input();
-            scr.Print();
-            Console.ReadKey();
-        }
 
     }
 }
