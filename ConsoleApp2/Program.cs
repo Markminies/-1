@@ -15,12 +15,7 @@ namespace praktika1
 
         public double Summa { get; set; }
 
-        public kvit()
-        {
-            this.nomer = 0;
-            this.data1 = 0;
-            this.Summa = 0;
-        }
+
 
         public void Input()
         {
@@ -36,6 +31,13 @@ namespace praktika1
             Console.WriteLine($"Сумма : { this.Summa }");
         }
 
+        static void Main(string[] args)
+        {
+            kvit scr = new kvit();
+            scr.Input();
+            scr.Print();
+            Console.ReadKey();
+        }
 
     }
 }
